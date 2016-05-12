@@ -32,7 +32,7 @@ require_once dirname( __FILE__ ) . '/includes/uc-settings.php';
 
 if( !function_exists('uc_adding_scripts') ):
 	function uc_adding_scripts() {		
-		wp_enqueue_script('uc-zoomsl', UC_W_ZOOM.'/js/zoomsl-3.0.js', array('jquery'),'3.0', false);
+		wp_enqueue_script('uc-zoomsl', UC_W_ZOOM.'/js/zoomsl-3.0.js', array('jquery'),'3.1', false);
 	}
 endif;
 add_action( 'wp_enqueue_scripts', 'uc_adding_scripts' ); 
