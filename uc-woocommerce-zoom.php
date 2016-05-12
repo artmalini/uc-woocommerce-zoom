@@ -3,7 +3,7 @@
  * Plugin Name:       UC Woocommerce Zoom
  * Plugin URI:        https://github.com/artmalini/uc-woocommerce-zoom.git
  * Description:       My Awesome plugin for woocommerce product zoom.
- * Version:           1.3
+ * Version:           1.1
  * Author:            Artem Makhinya
  * Author URI:        https://github.com/artmalini/uc-woocommerce-zoom.git
  * License:           GPL-2.0+
@@ -32,7 +32,7 @@ require_once dirname( __FILE__ ) . '/includes/uc-settings.php';
 
 if( !function_exists('uc_adding_scripts') ):
 	function uc_adding_scripts() {		
-		wp_enqueue_script('uc-zoomsl', UC_W_ZOOM.'/js/zoomsl-3.0.js', array('jquery'),'3.1', false);
+		wp_enqueue_script('uc-zoomsl', UC_W_ZOOM.'/js/zoomsl-3.0.js', array('jquery'),'3.0', false);
 	}
 endif;
 add_action( 'wp_enqueue_scripts', 'uc_adding_scripts' ); 
