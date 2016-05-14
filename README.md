@@ -12,6 +12,10 @@ Plugin Features
  * Easy to use.
  * Developer friendly & easy to customize. 
 
+## Screenshot ##
+
+![Option Panel]( https://github.com/artmalini/uc-woocommerce-zoom/blob/master/screenshot1.jpg )
+
 ## Installation
 
 * cd /var/www/vhosts/example.com/wp-content/plugins
