@@ -42,7 +42,7 @@ if( !function_exists('uc_trigger_zoomimg') ):
 			        $(".my-foto").imagezoomsl({	
 			        	innerzoom: <?php echo get_db_option('innerzoom','general_uc_section','false');?>,			  
 			            cursorshade: <?php echo get_db_option('cursorshade','general_uc_section','true');?>,
-			            magnifierpos: <?php echo get_db_option('magnifierpos','general_uc_section','right');?>,
+			            magnifierpos: '<?php echo get_db_option('magnifierpos','general_uc_section','right');?>',
 			            zoomstart: <?php echo get_db_option('zoomstart','general_uc_section','2');?>,
 			            magnifycursor: '<?php echo get_db_option('magnifycursor','general_uc_section','crosshair');?>',
 			            cursorshadecolor: '<?php echo get_db_option('cursorshadecolor','general_uc_section','#cecece');?>',

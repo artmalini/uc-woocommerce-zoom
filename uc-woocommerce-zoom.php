@@ -25,7 +25,7 @@ define( 'UC_W_ZOOM', WP_CONTENT_URL. '/plugins/uc-woocommerce-zoom' );
  */
 
 require_once dirname( __FILE__ ) . '/includes/uc_registration.php';
-require_once dirname( __FILE__ ) . '/uc_settings.php';
+require_once dirname( __FILE__ ) . '/includes/uc_settings.php';
 require_once dirname( __FILE__ ) . '/includes/uc_view.php';
 
 /**
