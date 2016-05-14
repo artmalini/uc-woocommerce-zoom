@@ -35,10 +35,10 @@ function plugin_settings() {
 
 
 	add_settings_section(
-		'general_uc_section',
-		__( 'Display Options', 'uc-woocommerce-zoom' ),
-		'',
-		'primer_page'
+		'general_uc_section',		// ID used to identify this section and with which to register options
+		__( 'Display Options', 'uc-woocommerce-zoom' ),		// Title to be displayed on the administration page
+		'',												// Callback used to render the description of the section
+		'primer_page'									// Page on which to add this section of options
 	);
 	add_settings_field(	
 		'cursorshade',						// ID used to identify the field throughout the theme
