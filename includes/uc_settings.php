@@ -22,7 +22,7 @@ class UC_Settings {
     }
 	
     function admin_menu() {
-        add_theme_page(
+        add_options_page(
          __( 'UC Zoom', 'uc-woocommerce-zoom' ),	// The title to be displayed in the browser window for   this page.
          __( 'UC Zoom', 'uc-woocommerce-zoom' ),  // The text to be displayed for this menu item
          'administrator',								// Which type of users can see this menu item

@@ -277,10 +277,10 @@ class UC_Registration {
      * Shows all the settings section labels as tab
      */
     function show_navigation() {
-        $html = '<h2 class="nav-tab-wrapper">';
+        $html = '<h2>';
 
         foreach ( $this->settings_sections as $tab ) {
-            $html .= sprintf( '<a href="#%1$s" class="nav-tab" id="%1$s-tab">%2$s</a>', $tab['id'], $tab['title'] );
+            $html .= get_admin_page_title();
         }
 
         $html .= '</h2>';
